@@ -1,0 +1,13 @@
+{application, erlyassets,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { erlyassets_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,21 @@
+
+<html>
+<head>
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href={% get_cache_url app="simple_assets" url="bootstrap.css" %}>
+
+</head>
+<body>
+
+<br>
+<br>
+<img src="{% get_cache_url app="simple_assets" url="button_icons.jpg" %}" alt="">
+
+<br>
+<br>
+<a href="{% get_cache_url app="simple_assets" url="test.txt" %}">click me!</a>
+
+</body>
+</html>
+
